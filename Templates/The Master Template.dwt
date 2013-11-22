@@ -11,106 +11,109 @@
 	<!-- TemplateParam name="Companions Secondary Nav" type="boolean" value="false" -->
 	<!-- TemplateParam name="Villains Secondary Nav" type="boolean" value="false" -->
 	<link href="../../doctor-who-new-improved-website/styles.css" rel="stylesheet" type="text/css">
+	<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<table>
-		<tr>
-			<td colspan="2"> <a href="../../doctor-who-new-improved-website/index.html">Home </a><a href="../../doctor-who-new-improved-website/the-doctors/index.html"> The Doctors</a> <a href="../../doctor-who-new-improved-website/companions/index.html">The Companions </a><a href="../../doctor-who-new-improved-website/villains/index.html">The Villains </a></td>
-		</tr>
-		<tr>
-			<td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner Goes Here]<!-- TemplateEndEditable --></td>
-		</tr>
-		<tr>
-			<td><!-- TemplateBeginIf cond="_document['The Doctors Secondary Nav']" -->
-				<table>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-first-doctor.html">The First Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-second-doctor.html">The Second Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-third-doctor.html">The Third Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-sixth-doctor.html">The Sixth Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-seventh-doctor.html">The Seventh Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-eigth-doctor.html">The Eigth Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-ninth-doctor.html">The Ninth Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-tenth-doctor.html">The Tenth Doctor</a></td>
-					</tr>
-					<tr>
-						<td><a href="../../doctor-who-new-improved-website/the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></td>
-					</tr>
-				</table>
-			<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Secondary Nav']" -->
-			<table>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/rose-tyler.html">Rose Tyler</a></td>
+	<div class="wrapper">
+		<table width="950">
+			<tr>
+				<td colspan="2"> <a href="../../doctor-who-new-improved-website/index.html">Home </a><a href="../../doctor-who-new-improved-website/the-doctors/index.html"> The Doctors</a> <a href="../../doctor-who-new-improved-website/companions/index.html">The Companions </a><a href="../../doctor-who-new-improved-website/villains/index.html">The Villains </a></td>
 				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/rory-williams.html">Rory Williams</a></td>
+			<tr>
+				<td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner Goes Here]<!-- TemplateEndEditable --></td>
 				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/river-song.html">River Song</a></td>
+			<tr>
+				<td><!-- TemplateBeginIf cond="_document['The Doctors Secondary Nav']" -->
+					<table>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-first-doctor.html">The First Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-second-doctor.html">The Second Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-third-doctor.html">The Third Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-sixth-doctor.html">The Sixth Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-seventh-doctor.html">The Seventh Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-eigth-doctor.html">The Eigth Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-ninth-doctor.html">The Ninth Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-tenth-doctor.html">The Tenth Doctor</a></td>
+							</tr>
+						<tr>
+							<td><a href="../../doctor-who-new-improved-website/the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></td>
+							</tr>
+						</table>
+					<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Secondary Nav']" -->
+						<table>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/rose-tyler.html">Rose Tyler</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/rory-williams.html">Rory Williams</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/river-song.html">River Song</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/martha-jones.html">Martha Jones</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/lady-christinia-de-souza.html">Lady Christina De Souza</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/jack-harkness.html">Jack Harkness</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/clara-oswald.html">Clara Oswald</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/companions/amy-pond.html">Amy Pond</a></td>
+							</tr>
+						</table>
+						<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Villains Secondary Nav']" -->
+						<table>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/villains/the-master.html">The Master</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/villains/the-daleks.html">Daleks</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/villains/lady-cassandra.html">Lady Cassandra</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/villains/davros.html">Davros</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/villains/weeping-angels.html">Weeping Angels</a></td>
+							</tr>
+							<tr>
+								<td><a href="../../doctor-who-new-improved-website/villains/cybermen.html">Cybermen</a></td>
+							</tr>
+						</table>
+					<!-- TemplateEndIf --></td>
+				<td> <div> <!-- TemplateBeginEditable name="Content" -->
+					[General Content Goes Here]
+					<!-- TemplateEndEditable --></div></td>
 				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/martha-jones.html">Martha Jones</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/lady-christinia-de-souza.html">Lady Christina De Souza</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/jack-harkness.html">Jack Harkness</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/clara-oswald.html">Clara Oswald</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/companions/amy-pond.html">Amy Pond</a></td>
-				</tr>
-			</table>
-			<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Villains Secondary Nav']" -->
-			<table>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/villains/the-master.html">The Master</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/villains/the-daleks.html">Daleks</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/villains/lady-cassandra.html">Lady Cassandra</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/villains/davros.html">Davros</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/villains/weeping-angels.html">Weeping Angels</a></td>
-				</tr>
-				<tr>
-					<td><a href="../../doctor-who-new-improved-website/villains/cybermen.html">Cybermen</a></td>
-				</tr>
-			</table>
-			<!-- TemplateEndIf --></td>
-			<td> <div> <!-- TemplateBeginEditable name="Content" -->
-			[General Content Goes Here]
-			<!-- TemplateEndEditable --></div></td>
-		</tr>
-	</table>
+		</table>
+	</div>
 </body>
 </html>
